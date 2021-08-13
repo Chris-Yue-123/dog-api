@@ -1,0 +1,48 @@
+body {
+    background-color: blueviolet;
+}
+#gallery {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+img {
+    max-width: 35%;
+    max-height: 35%;
+    margin: 7;
+}
+#input-box {
+    padding: 5px;
+    border-radius: 15px;
+    outline: none;
+}
+#input-box:focus {
+    box-shadow: 0px 0px 15px rgb(66, 202, 82);
+}
+input:hover {
+    filter: brightness(1.15);
+}
+button {
+    border-radius: 12px;
+    background-color: lightcoral;
+    margin: 15px;
+}
+button:hover {
+    filter: brightness(0.85);
+}
+button:active {
+    filter: brightness(0.7);
+}
+#controls {
+    background-color: blueviolet;
+    filter: brightness(0.97);
+    width: 100%;
+    border: 0px;
+}
+#search-button {
+    margin-left: 15px;
+}
+* {
+    text-align: center;
+    justify-content: center;
+}
