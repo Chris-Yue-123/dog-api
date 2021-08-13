@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dog Image Search Engine</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+            integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div id="top">
+            <h1>Welcome to my dog image search engine!</h1>
+        </div>
+        <div id="content">
+            <div id="controls">
+                <input type="search" list="dog-breeds" id="input-box" />
+                <button id="search-button">Search breed</button>
+                <datalist id="dog-breeds">
+                    <!-- <option value="terrier"></option>
+                <option value="sheepdog"></option> -->
+                </datalist>
+                <button id="getgenrimg">Get generic random image</button>
+                <button id="getbreedimg">Get random image of breed</button>
+                <button id="reset">Reset images</button>
+            </div>
+            <div id="message"></div>
+            <div id="doggenr"></div>
+            <div id="dogrand"></div>
+            <div id="info"></div>
+            <div id="gallery"></div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
